@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonStockExchange.API", "LondonStockExchange.API\LondonStockExchange.API.csproj", "{29A854B2-9C8B-45F5-BE68-BF8B6A754A52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonStockExchange.Data", "LondonStockExchange.Data\LondonStockExchange.Data.csproj", "{DCB58F06-1223-490D-9747-2452D5B5F81B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonStockExchange.Domain", "LondonStockExchange.Domain\LondonStockExchange.Domain.csproj", "{6FA005DC-6910-49D2-8959-4AA1E34EB79D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D161C3D6-F4D7-42A8-AD2C-044F82079F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonStockExchange.API.UnitTests", "Tests\LondonStockExchange.API.UnitTests\LondonStockExchange.API.UnitTests.csproj", "{D5CC76DA-0DB0-4510-9782-A98A7E19E88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonStockExchange.Domain.UnitTests", "Tests\LondonStockExchange.Domain.UnitTests\LondonStockExchange.Domain.UnitTests.csproj", "{9EE4E7EC-57F1-49E1-8069-35C59CEDE183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29A854B2-9C8B-45F5-BE68-BF8B6A754A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A854B2-9C8B-45F5-BE68-BF8B6A754A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A854B2-9C8B-45F5-BE68-BF8B6A754A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A854B2-9C8B-45F5-BE68-BF8B6A754A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB58F06-1223-490D-9747-2452D5B5F81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB58F06-1223-490D-9747-2452D5B5F81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB58F06-1223-490D-9747-2452D5B5F81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB58F06-1223-490D-9747-2452D5B5F81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA005DC-6910-49D2-8959-4AA1E34EB79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA005DC-6910-49D2-8959-4AA1E34EB79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA005DC-6910-49D2-8959-4AA1E34EB79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA005DC-6910-49D2-8959-4AA1E34EB79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CC76DA-0DB0-4510-9782-A98A7E19E88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CC76DA-0DB0-4510-9782-A98A7E19E88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CC76DA-0DB0-4510-9782-A98A7E19E88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CC76DA-0DB0-4510-9782-A98A7E19E88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE4E7EC-57F1-49E1-8069-35C59CEDE183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE4E7EC-57F1-49E1-8069-35C59CEDE183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE4E7EC-57F1-49E1-8069-35C59CEDE183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE4E7EC-57F1-49E1-8069-35C59CEDE183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5CC76DA-0DB0-4510-9782-A98A7E19E88C} = {D161C3D6-F4D7-42A8-AD2C-044F82079F68}
+		{9EE4E7EC-57F1-49E1-8069-35C59CEDE183} = {D161C3D6-F4D7-42A8-AD2C-044F82079F68}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CED20F10-925C-44F8-9D8A-FCBD54CECA3C}
+	EndGlobalSection
+EndGlobal
