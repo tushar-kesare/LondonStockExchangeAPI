@@ -6,6 +6,9 @@ This solution is implemented in .NET 6 and can be opened from Visual Studio 2022
 Once the solution is opened, set LondonStockExchange.API as default project and run the solution.
 You should be able to see the Swagger UI and try out the APIs.
 
+## Dependencies
+Currently the solution has no external dependency. For test purpose, the repository stores data in-memory.
+
 ## Architecture
 1. LondonStockExchange.API is the main ASP.NET Web API application. It implemtents 3 APIs:
 
